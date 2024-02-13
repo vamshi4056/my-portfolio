@@ -79,6 +79,10 @@ nav ul li a {
     flex-wrap: wrap;
 }
 
+.term span {
+    color: #ff004f;
+}
+
 .about-col-1 img {
     border-radius: 15px;
     width: 100%;
