@@ -8,8 +8,19 @@
 #header {
     width: 100%;
     height: 100vh;
+    background-image: url(you.webp);
     background-size: cover;
     background-position: center;
+}
+
+body {
+    background: black;
+    color: aliceblue;
+}
+
+.text {
+    color: blue;
+    font-weight: 600;
 }
 
 .container {
@@ -323,4 +334,91 @@ nav ul li a {
 .light {
     background-color: aliceblue;
     color: black;
+}
+
+#fas {
+    display: none;
+}
+
+#fa {
+    display: none;
+}
+
+@media only screen and (max-width:799px) {
+    #header {
+        background-image: url(who.jpg);
+    }
+    .header-text {
+        margin-top: 100%;
+        font-size: 16px;
+    }
+    .header-text h1 {
+        font-size: 30px;
+    }
+    #fas {
+        display: block;
+        font-size: 25px;
+    }
+    #fa {
+        display: block;
+        font-size: 25px;
+        color: aliceblue;
+    }
+    nav ul {
+        background: #ff004f;
+        position: fixed;
+        top: 0;
+        right: -200;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 25px;
+    }
+    #fas {
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    .sub-title {
+        font-size: 40px;
+    }
+    .about-col-1,
+    .about-col-2 {
+        flex-basis: 100%;
+    }
+    .about-col-1 {
+        margin-bottom: 30px;
+    }
+    .about-col-2 {
+        font-size: 14px;
+    }
+    .tab-links {
+        font-size: 16px;
+        margin-right: 20px;
+    }
+    body {
+        background: black;
+        color: aliceblue;
+    }
+    .text {
+        color: #ff004f;
+        font-weight: 600;
+    }
+    .text span {
+        color: green;
+        font-weight: 600;
+    }
+    .contact-left,
+    .contact-right {
+        flex-basis: 100%;
+    }
+    .copyright {
+        font-size: 14px;
+    }
 }
