@@ -8,7 +8,7 @@
 #header {
     width: 100%;
     height: 100vh;
-    background-image: url(C:/Users/vamsi//Downloads/you.webp);
+    background-image: url(you.webp);
     background-size: cover;
     background-position: center;
 }
@@ -344,9 +344,9 @@ nav ul li a {
     display: none;
 }
 
-@media only screen and (max-width:799px) {
+@media (max-width:600px) {
     #header {
-        background-image: url(C:/Users/vamsi//Downloads/who.jpg);
+        background-image: url(who.jpg);
     }
     .header-text {
         margin-top: 100%;
