@@ -344,7 +344,7 @@ nav ul li a {
     display: none;
 }
 
-@media (max-width:600px) {
+@media screen {
     #header {
         background-image: url(who.jpg);
     }
