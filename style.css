@@ -413,11 +413,11 @@ nav ul li a {
         background: black;
         color: aliceblue;
         opacity: -10;
-        cursor: pointer;
+        
     }
     body:hover {
         opacity: 1;
-        cursor: pointer;
+     
     }
     .text {
         color: #ff004f;
