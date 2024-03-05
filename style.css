@@ -17,10 +17,12 @@ body {
     background: black;
     color: aliceblue;
     opacity: -10;
+    cursor: pointer;
 }
 
 body:hover {
     opacity: 1;
+    cursor: pointer;
 }
 
 .text {
@@ -410,9 +412,13 @@ nav ul li a {
     body {
         background: black;
         color: aliceblue;
-     
+        opacity: -10;
+        cursor: pointer;
     }
-  
+    body:hover {
+        opacity: 1;
+        cursor: pointer;
+    }
     .text {
         color: #ff004f;
         font-weight: 600;
