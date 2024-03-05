@@ -16,7 +16,10 @@
 body {
     background: black;
     color: aliceblue;
+    opacity:-1;
 }
+body:hover{
+    opactiy:1;}
 
 .text {
     color: blue;
