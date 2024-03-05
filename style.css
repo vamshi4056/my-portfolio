@@ -410,11 +410,9 @@ nav ul li a {
     body {
         background: black;
         color: aliceblue;
-        opacity: -1;
+     
     }
-    body:hover {
-        opacity: 1;
-    }
+  
     .text {
         color: #ff004f;
         font-weight: 600;
