@@ -409,12 +409,17 @@ nav ul li a {
         font-size: 16px;
         margin-right: 20px;
     }
-    body {
-        background: black;
-        color: aliceblue;
-      
-        
-    }
+  body {
+    background: black;
+    color: aliceblue;
+    opacity: -10;
+    cursor: pointer;
+}
+
+body:hover {
+    opacity: 1;
+    cursor: pointer;
+}
    
     .text {
         color: #ff004f;
