@@ -16,10 +16,12 @@
 body {
     background: black;
     color: aliceblue;
-    opacity:-1;
+    opacity: -10;
 }
-body:hover{
-    opactiy:1;}
+
+body:hover {
+    opacity: 1;
+}
 
 .text {
     color: blue;
@@ -349,7 +351,7 @@ nav ul li a {
 
 @media only screen and (max-width:600px) {
     #header {
-      background-image: url(who.jpg);
+        background-image: url(who.jpg);
     }
     .header-text {
         margin-top: 100%;
@@ -408,6 +410,10 @@ nav ul li a {
     body {
         background: black;
         color: aliceblue;
+        opacity: -1;
+    }
+    body:hover {
+        opacity: 1;
     }
     .text {
         color: #ff004f;
