@@ -351,7 +351,7 @@ nav ul li a {
     display: none;
 }
 
-@media only screen and (max-width:799px) {
+@media only screen and (max-width:600px) {
     #header {
         background-image: url(who.jpg);
     }
