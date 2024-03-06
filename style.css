@@ -13,11 +13,23 @@
     background-position: center;
 }
 
-body {
-    background: black;
+.detail {
+    color: white;
+}
+
+.tab-links {
     color: aliceblue;
+}
+
+.tab-contents {
+    color: aliceblue;
+}
+
+body {
+    background-color: black;
     opacity: -10;
     cursor: pointer;
+    color: aliceblue;
 }
 
 body:hover {
@@ -409,18 +421,16 @@ nav ul li a {
         font-size: 16px;
         margin-right: 20px;
     }
-  body {
-    background: black;
-    color: aliceblue;
-    opacity: -10;
-    cursor: pointer;
-}
-
-body:hover {
-    opacity: 1;
-    cursor: pointer;
-}
-   
+    body {
+        background-color: black;
+        opacity: -10;
+        cursor: pointer;
+        color: aliceblue;
+    }
+    body:hover {
+        opacity: 1;
+        cursor: pointer;
+    }
     .text {
         color: #ff004f;
         font-weight: 600;
