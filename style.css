@@ -82,6 +82,12 @@ nav ul li a {
     font-size: 18px;
 }
 
+#sidemenu {
+    position: fixed;
+    right: 40px;
+    top: 30px;
+}
+
 .hi {
     color: green;
     font-weight: 600;
