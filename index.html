@@ -26,7 +26,7 @@
                     <li><a href="#services" class="hi">Services</a></li>
                     <li><a href="#portfolio" class="hi">Portfolio</a></li>
                     <li><a href="#contact" class="hi">Contact</a></li>
-                    <button id="mode">change mode</button>
+                    <button id="mode" ondblclick="cmm()" onclick="cm()">change mode</button>
 
                     <i class="fa-solid fa-circle-xmark" onclick="closemenu()" id="fas"></i>
 
@@ -172,21 +172,8 @@
 
 
 
-        let modebtn = document.querySelector("#mode");
-        let body = document.querySelector("body");
-        let cumode = "light";
-        modebtn.addEventListener("click", () => {
-            if (cumode === "light") {
-                cumode = "dark";
-                body.classList.add("dark");
-            } else {
-                cumode = "light";
-                body.classList.add("light");
-            }
-            console.log(cumode)
-        });
-    </script>
-    <script>
+
+
         var sidemenu = document.getElementById("sidemenu");
 
         function openmenu() {
@@ -196,7 +183,35 @@
         function closemenu() {
             sidemenu.style.right = "-200";
         }
+        let modebtn = document.querySelector("#mode");
+        let body = document.querySelector("body");
+        let cumode = "light";
+        modebtn.addEventListener("click", () => {
+            if (cumode === "light") {
+                cumode = "dark";
+                body.classList.add("dark");
+                body.classList.remove("light");
+            } else {
+                cumode = "light";
+                body.classList.add("light");
+                body.classList.remove("dark");
+            }
+            console.log(cumode);
+        })
+
+        function cm() {
+
+            document.getElementById("mode").style.backgroundColor = "black"
+            document.getElementById("mode").style.color = "white"
+        }
+
+        function cmm() {
+
+            document.getElementById("mode").style.backgroundColor = "white"
+            document.getElementById("mode").style.color = "black"
+        }
     </script>
+    <script src="script.js"></script>
 
 </body>
 
